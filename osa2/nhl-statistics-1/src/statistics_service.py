@@ -1,7 +1,5 @@
 class StatisticsService:
     def __init__(self, reader):
-
-        self._reader = reader
         self._players = reader.get_players()
 
     def search(self, name):
